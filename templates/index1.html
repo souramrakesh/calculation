@@ -1,0 +1,19 @@
+</style>
+
+    <div style="color:black">
+        <form action="{{ url_for('predict')}}" method="post">
+</br><table><tr>
+            <td><h3 style="left">Please Enter the first Number :</h3>
+</td>
+ <td><input style="float:right" id="first" name="Please Enter the first Number" type=" number "></td></tr>
+<tr>
+           <td> <h3 style="left">Please Enter the second Number :</h3></td>
+<td><input  id="second" name="Please Enter the second Number" required="required"></td></tr>
+    </table>
+            <br><br><button id="sub" type="submit ">Calculate</button>
+            <br>
+           </form>
+        <p>{{ text }}</p>
+        <p>{{predict}}</p>
+
+        </div>
